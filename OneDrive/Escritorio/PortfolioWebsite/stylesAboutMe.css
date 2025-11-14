@@ -21,8 +21,16 @@ body {
     margin: 0 auto;
 }
 
+
+
+
 h1, h2, .retro-text{
-    font-family: 'Press Start 2P', cursive;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 a {
@@ -243,6 +251,17 @@ nav .right a span{
 .vertical-menu a:hover {
     background-color: var(--link-color);
     color: var(--background-color);
+}
+
+.hero-section {
+    position: relative;
+    z-index: 1; /* Higher than background */
+    --text-color:var(#ffffff);
+}
+
+.hero-section h1 h2{
+    --text-color:var(#ffffff);
+
 }
 
 
