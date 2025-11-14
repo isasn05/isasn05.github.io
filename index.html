@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font that will be used -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!--Icons!-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Links the CSS file to the html-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>ISASN</title>
+</head>
+<body>
+
+    <!-- NAVBAR-->
+     <nav>
+
+        <!--Top name that has link -->
+        <div class="left">
+            <a href="/">Isabella Sanglade</a> 
+        </div>
+
+        <!--All links to other sites-->
+        <div class="right">
+            <a href="https://github.com/isasn05" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/isasn/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:isasncollege@gmail.com" class="email-link" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        <!-- Menu Icon -->
+            <a class="menu-icon" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <!-- Vertical Menu -->
+            <div class="vertical-menu" id="verticalMenu">
+                <a href="/about.html">About Me</a>
+                <a href="/projects.html">Projects</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/resume.html">Resume</a>
+            </div>
+
+        </div>
+
+
+     </nav>
+
+     <main>
+        <!-- Section 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2> Welcome!, My name is Isabella 💻</h2>
+                <p>I'm Isabella Sanglade, a second-year Computer Science student at the University of Central Florida. 
+                This website is a personal project I built to deepen my understanding of web development and showcase
+                the work I’ve done outside the classroom. I created it from scratch using HTML, CSS, and JavaScript.
+                <br><br>
+                Here, you'll find a collection of my projects, a resume, and ways to get in touch. I also included an
+                About Me page where I share more about my interests, current goals, and the communities I'm part of.
+                Whether you're here to explore my work or just curious about my journey, thank you for stopping by!</p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="headshot">
+                <img src="imagesPorfolio/PresentablePic.png" alt="Isabella Sanglade headshot">
+            </div>
+
+        </section>
+
+        <!-- Section 2: Skills-->
+        <section id = "skills" class="skills-section"> 
+            <h2> Skills </h2>
+            <div class="text">
+                    <br>
+                    I’m certified in Java and have had at least beginner-level experience with Python, C, JavaScript, HTML, CSS, and Linux.
+                    Through building this site, I’ve gained hands-on experience with front-end development
+                    and learned how to bring ideas to life on the web.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="imagesPorfolio/C-lang-logo.png" alt="C language logo">
+                    <span>C</span>
+                </div>
+            
+
+                <div class="cell">
+                    <img src="imagesPorfolio/java-logo-transparent-free-png.jpg" alt="Java logo">
+                    <span>Java</span>
+                </div>
+   
+
+                <div class="cell">
+                    <img src="imagesPorfolio/python-logo.png" alt="Python logo">
+                    <span>Python</span>
+                </div>
+   
+
+                <div class="cell">
+                    <img src="imagesPorfolio/html-logo.webp" alt="HTML logo">
+                    <span>HTML</span>
+                </div>
+
+
+                <div class="cell">
+                    <img src="imagesPorfolio/css-logo.webp" alt="CSS logo">
+                    <span>CSS</span>
+                </div>
+  
+
+           
+                <div class="cell">
+                    <img src="imagesPorfolio/linux-penguin.png" alt="Linux logo">
+                    <span>Linux</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section 3: Testimony -->
+        <section id = "testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="imagesPorfolio/IMG_3088.jpeg">
+                    <p>Isabella Sanglade</p>
+                </div>
+                <div class="text">
+                This portfolio represents more than just code — it’s a reflection of my growth,
+                creativity, and commitment to learning. Every project featured here taught me
+                something new, whether it was debugging a tricky function or designing a clean user interface.
+                    <br><br>
+                Building this site has been one of my favorite challenges so far. It pushed me to think
+                critically, experiment with new tools, and take ownership of my learning. I hope it gives
+                you a glimpse into the kind of developer I’m becoming.
+                </div>
+            </div> 
+
+        </section>
+
+        <!-- Section 4: Contact -->
+        <section id = "contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                If you’d like to connect, collaborate, or just say hello, head over to my Contact page or send me a message here.
+                You’ll also find my Resume there, along with links to my projects and more details about
+                my background.
+                    <br><br>
+                Thanks again for visiting! I’m excited to keep building, learning, and sharing along the way.
+                </div>
+
+                <form class="form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+
+            </div>
+        </section>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("verticalMenu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+
+        // Optional: Close menu when clicking outside
+        window.addEventListener("click", function(e) {
+            const menu = document.getElementById("verticalMenu");
+            const icon = document.querySelector(".menu-icon");
+            if (!menu.contains(e.target) && !icon.contains(e.target)) {
+            menu.style.display = "none";
+            }});
+    </script>  
+
+</body>
+</html>
